@@ -1,0 +1,13 @@
+vpc_cidr = "10.92.0.0/16"
+environment = "demo"
+public_subnet_cidrs = ["10.92.0.0/24", "10.92.1.0/24"]
+private_subnet_cidrs = ["10.92.50.0/24", "10.92.51.0/24"]
+availibility_zones = ["ap-southeast-1a", "ap-southeast-1b"]
+region = "ap-southeast-1"
+ami_image = "ami-08d4fe232c67b81b8"
+ecs_key = "demo-ec2-keypair"
+instance_type = "t2.medium"
+repo_owner = "vijay-thakur"
+repo_name = "demo-cicd-codepipeline"
+github_oauth_token = "github_oauth_token"
+s3_bucket_name = "test-demo-cicd-codepipeline"
